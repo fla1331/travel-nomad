@@ -1,39 +1,36 @@
 document.addEventListener('DOMContentLoaded', function() {
     // ============================================================
-    // MENU MOBILE - Funciona com .nav-toggle (classe correta)
+    // MENU MOBILE - Classe .menu-toggle e .main-nav
     // ============================================================
-    const menuToggle = document.querySelector('.nav-toggle');
-    const nav = document.querySelector('.nav');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.main-nav');
     
     if (menuToggle && nav) {
         menuToggle.addEventListener('click', function(e) {
             e.stopPropagation();
-            nav.classList.toggle('is-open');
-            this.classList.toggle('is-open');
+            nav.classList.toggle('open');
+            this.classList.toggle('open');
             
-            // Atualiza aria-label
-            const isOpen = nav.classList.contains('is-open');
+            const isOpen = nav.classList.contains('open');
             this.setAttribute('aria-expanded', isOpen);
             this.setAttribute('aria-label', isOpen ? 'Fechar menu' : 'Abrir menu');
         });
         
-        // Fecha o menu ao clicar fora
         document.addEventListener('click', function(e) {
-            if (nav.classList.contains('is-open') && 
+            if (nav.classList.contains('open') && 
                 !nav.contains(e.target) && 
                 e.target !== menuToggle) {
-                nav.classList.remove('is-open');
-                menuToggle.classList.remove('is-open');
+                nav.classList.remove('open');
+                menuToggle.classList.remove('open');
                 menuToggle.setAttribute('aria-expanded', 'false');
                 menuToggle.setAttribute('aria-label', 'Abrir menu');
             }
         });
         
-        // Fecha o menu ao pressionar ESC
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && nav.classList.contains('is-open')) {
-                nav.classList.remove('is-open');
-                menuToggle.classList.remove('is-open');
+            if (e.key === 'Escape' && nav.classList.contains('open')) {
+                nav.classList.remove('open');
+                menuToggle.classList.remove('open');
                 menuToggle.setAttribute('aria-expanded', 'false');
                 menuToggle.setAttribute('aria-label', 'Abrir menu');
                 menuToggle.focus();
@@ -42,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ============================================================
-    // HEADER SCROLL - Adiciona classe quando rola a página
+    // HEADER SCROLL
     // ============================================================
     const header = document.querySelector('.site-header');
     if (header) {
@@ -56,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ============================================================
-    // TOC (Sumário) - Se existir
+    // TOC (Sumário)
     // ============================================================
     const content = document.getElementById('article-content');
     const tocList = document.getElementById('toc-list');
@@ -96,21 +93,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             });
         }
-    }
-
-    // ============================================================
-    // NEWSLETTER
-    // ============================================================
-    const newsletterForm = document.getElementById('newsletter-form');
-    if (newsletterForm) {
-        newsletterForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            const email = document.getElementById('newsletter-email');
-            if (email && email.value) {
-                alert('📧 Obrigado por assinar nossa newsletter! Em breve você receberá novidades.');
-                this.reset();
-            }
-        });
     }
 
     // ============================================================
@@ -174,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ============================================================
-    // REVEAL ANIMATION (cards aparecem com animação)
+    // REVEAL ANIMATION
     // ============================================================
     const revealElements = document.querySelectorAll('.reveal');
     
@@ -193,81 +175,81 @@ document.addEventListener('DOMContentLoaded', function() {
         revealElements.forEach(el => revealObserver.observe(el));
     }
 
-
-       /* ---------- 3. Language Selector ---------- */
+    // ============================================================
+    // LANGUAGE SELECTOR
+    // ============================================================
     const langBtn = document.querySelector('.lang-btn');
     const langDropdown = document.querySelector('.lang-dropdown');
     if (langBtn && langDropdown) {
-      langBtn.addEventListener('click', function (e) {
-        e.stopPropagation();
-        langDropdown.classList.toggle('open');
-        const expanded = langDropdown.classList.contains('open');
-        langBtn.setAttribute('aria-expanded', expanded);
-      });
-      document.addEventListener('click', function () {
-        langDropdown.classList.remove('open');
-        langBtn.setAttribute('aria-expanded', 'false');
-      });
-      langDropdown.addEventListener('click', function (e) { e.stopPropagation(); });
+        langBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            langDropdown.classList.toggle('open');
+            const expanded = langDropdown.classList.contains('open');
+            langBtn.setAttribute('aria-expanded', expanded);
+        });
+        document.addEventListener('click', function () {
+            langDropdown.classList.remove('open');
+            langBtn.setAttribute('aria-expanded', 'false');
+        });
+        langDropdown.addEventListener('click', function (e) { e.stopPropagation(); });
     }
 
-    /* ---------- 4. Cookie Banner ---------- */
+    // ============================================================
+    // COOKIE BANNER
+    // ============================================================
     const COOKIE_KEY = 'travel-blog-cookie-consent';
     const banner = document.querySelector('.cookie-banner');
 
     function getCookieConsent() {
-      try { return localStorage.getItem(COOKIE_KEY); } catch (e) { return null; }
+        try { return localStorage.getItem(COOKIE_KEY); } catch (e) { return null; }
     }
     function setCookieConsent(value) {
-      try { localStorage.setItem(COOKIE_KEY, value); } catch (e) {}
+        try { localStorage.setItem(COOKIE_KEY, value); } catch (e) {}
     }
 
     if (banner) {
-      const consent = getCookieConsent();
-      if (!consent) {
-        setTimeout(function () { banner.classList.add('show'); }, 800);
-      }
-      const acceptBtn = banner.querySelector('.cookie-accept');
-      const rejectBtn = banner.querySelector('.cookie-reject');
-      const customizeBtn = banner.querySelector('.cookie-customize');
+        const consent = getCookieConsent();
+        if (!consent) {
+            setTimeout(function () { banner.classList.add('show'); }, 800);
+        }
+        const acceptBtn = banner.querySelector('.cookie-accept');
+        const rejectBtn = banner.querySelector('.cookie-reject');
+        const customizeBtn = banner.querySelector('.cookie-customize');
 
-      if (acceptBtn) {
-        acceptBtn.addEventListener('click', function () {
-          setCookieConsent('accepted');
-          banner.classList.remove('show');
-        });
-      }
-      if (rejectBtn) {
-        rejectBtn.addEventListener('click', function () {
-          setCookieConsent('rejected');
-          banner.classList.remove('show');
-        });
-      }
-      if (customizeBtn) {
-        customizeBtn.addEventListener('click', function () {
-          window.location.href = 'cookies.html';
-        });
-      }
+        if (acceptBtn) {
+            acceptBtn.addEventListener('click', function () {
+                setCookieConsent('accepted');
+                banner.classList.remove('show');
+            });
+        }
+        if (rejectBtn) {
+            rejectBtn.addEventListener('click', function () {
+                setCookieConsent('rejected');
+                banner.classList.remove('show');
+            });
+        }
+        if (customizeBtn) {
+            customizeBtn.addEventListener('click', function () {
+                window.location.href = 'cookies.html';
+            });
+        }
     }
 
     // ============================================================
-    // 🌙 TEMA CLARO/ESCURO (adicionado)
+    // TEMA CLARO/ESCURO
     // ============================================================
     const themeToggle = document.querySelector('.theme-toggle');
     const html = document.documentElement;
-    const STORAGE_KEY = 'travel-blog-theme'; // Use a mesma chave do seu header
+    const STORAGE_KEY = 'travel-blog-theme';
     
     if (themeToggle) {
-        // Aplica o tema salvo ao carregar a página
         const savedTheme = localStorage.getItem(STORAGE_KEY);
         if (savedTheme) {
             html.setAttribute('data-theme', savedTheme);
         } else {
-            // Tema padrão (claro)
             html.setAttribute('data-theme', 'light');
         }
         
-        // Alterna o tema ao clicar no botão
         themeToggle.addEventListener('click', function() {
             const currentTheme = html.getAttribute('data-theme');
             const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
@@ -275,8 +257,155 @@ document.addEventListener('DOMContentLoaded', function() {
             html.setAttribute('data-theme', newTheme);
             localStorage.setItem(STORAGE_KEY, newTheme);
             
-            // Opcional: feedback visual no console
-            console.log(`🌓 Tema alterado para: ${newTheme}`);
+            console.log('🌓 Tema alterado para: ' + newTheme);
+        });
+    }
+
+    // ============================================================
+    // 📤 SHARE BUTTONS
+    // ============================================================
+    const shareButtons = document.querySelectorAll('.share-btn');
+    
+    if (shareButtons.length > 0) {
+        shareButtons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const network = this.dataset.share;
+                const title = this.dataset.title || document.querySelector('.article-title')?.textContent || 'Travel Nomad';
+                const url = window.location.href;
+                const text = title + ' - ' + url;
+                
+                const shareUrls = {
+                    whatsapp: `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`,
+                    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,
+                    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`,
+                    linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`,
+                    pinterest: `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(url)}&description=${encodeURIComponent(title)}`,
+                    email: `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent('Confira este artigo: ' + url)}`
+                };
+                
+                const shareUrl = shareUrls[network];
+                if (shareUrl) {
+                    if (network === 'whatsapp') {
+                        window.open(shareUrl, '_blank', 'width=600,height=500');
+                    } else {
+                        const width = 600;
+                        const height = 500;
+                        const left = (window.innerWidth - width) / 2;
+                        const top = (window.innerHeight - height) / 2;
+                        window.open(
+                            shareUrl,
+                            'share',
+                            `width=${width},height=${height},left=${left},top=${top},toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1`
+                        );
+                    }
+                }
+            });
+        });
+    }
+
+    // ============================================================
+    // 📧 FORMULÁRIO DE CONTATO - Redirect (Web3Forms)
+    // ============================================================
+    const contactForm = document.querySelector('form[action="https://api.web3forms.com/submit"]');
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const form = this;
+            const formData = new FormData(form);
+            
+            fetch(form.action, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    const pathname = window.location.pathname;
+                    let idioma = pathname.split('/')[1];
+                    
+                    if (!idioma || idioma.length === 0) {
+                        idioma = 'pt';
+                    }
+                    
+                    const paginasObrigado = {
+                        'pt': 'obrigado.html',
+                        'en': 'thank-you.html',
+                        'es': 'gracias.html'
+                    };
+                    
+                    const pagina = paginasObrigado[idioma] || 'obrigado.html';
+                    window.location.href = '/' + idioma + '/' + pagina;
+                } else {
+                    alert('Erro ao enviar. Tente novamente.');
+                }
+            })
+            .catch(error => {
+                alert('Erro ao enviar. Tente novamente.');
+            });
+        });
+    }
+
+    // ============================================================
+    // 📧 NEWSLETTER - Webhook (Listmonk) + Web3Forms (Gmail)
+    // ============================================================
+    const newsletterForm = document.getElementById('newsletter-form');
+
+    if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const form = this;
+            const email = form.querySelector('input[name="email"]').value;
+            
+            // 1. Envia para o Webhook (Listmonk)
+            fetch('http://localhost:5000/webhook', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ email: email })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('✅ Listmonk:', data);
+            })
+            .catch(error => {
+                console.error('❌ Erro no Listmonk:', error);
+            });
+            
+            // 2. Envia para o Web3Forms (Gmail)
+            const formData = new FormData(form);
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    const pathname = window.location.pathname;
+                    let idioma = pathname.split('/')[1];
+                    
+                    if (!idioma || idioma.length === 0) {
+                        idioma = 'pt';
+                    }
+                    
+                    const paginasObrigado = {
+                        'pt': 'obrigado.html',
+                        'en': 'thank-you.html',
+                        'es': 'gracias.html'
+                    };
+                    
+                    const pagina = paginasObrigado[idioma] || 'obrigado.html';
+                    window.location.href = '/' + idioma + '/' + pagina;
+                } else {
+                    alert('Erro ao enviar. Tente novamente.');
+                }
+            })
+            .catch(error => {
+                alert('Erro ao enviar. Tente novamente.');
+            });
         });
     }
 

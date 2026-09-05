@@ -2,51 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://travelnomad.brightnest.blog/en/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/en/sobre.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/en/contato.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/en/politica-privacidade.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/en/cookies.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/en/termos.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://travelnomad.brightnest.blog/en/itineraries/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://travelnomad.brightnest.blog/en/gastronomy/</loc>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://travelnomad.brightnest.blog/en/transporte/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://travelnomad.brightnest.blog/en/itineraries/</loc>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/en/transportation/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/en/gastronomy/gastronomic-guide-to-portugal-must-try-traditional-dishes/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/en/gastronomy/recipe-for-traditional-spanish-valencian-paella/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/en/gastronomy/street-food-in-asia-survival-guide/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/en/itineraries/5-day-itinerary-in-new-york-what-to-do-and-where-to-go/</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/en/itineraries/7-day-itinerary-in-italy-rome-florence-and-venice/</loc>
@@ -56,25 +86,37 @@
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/en/itineraries/active-volcanoes-you-can-safely-visit/</loc>
-    <lastmod>2026-08-09</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/en/itineraries/complete-guide-to-traveling-to-chile-santiago-atacama-and-pa/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/en/itineraries/digital-nomad-how-to-work-while-traveling-the-world/</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://travelnomad.brightnest.blog/en/transporte/how-to-rent-a-car-abroad-step-by-step/</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://travelnomad.brightnest.blog/en/itineraries/incredible-trails-to-hike-in-patagonia/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/en/itineraries/street-food-in-thailand-what-to-try-in-bangkok/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/en/transportation/how-to-rent-a-car-abroad-step-by-step/</loc>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

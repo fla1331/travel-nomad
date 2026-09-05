@@ -2,79 +2,121 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://travelnomad.brightnest.blog/es/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/es/sobre.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/es/contato.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/es/politica-privacidade.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/es/cookies.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/es/termos.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://travelnomad.brightnest.blog/es/gastronomia/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://travelnomad.brightnest.blog/es/itinerarios/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/es/transporte/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://travelnomad.brightnest.blog/es/gastronomia/comida-callejera-en-asia-guia-de-supervivencia/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/es/gastronomia/guia-gastronomica-de-portugal-platos-tipicos-imperdibles/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/es/gastronomia/receta-de-paella-valenciana-tradicional-espanola/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/es/itinerarios/comida-callejera-en-tailandia-que-probar-en-bangkok/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://travelnomad.brightnest.blog/es/itinerarios/guia-completa-para-viajar-a-chile-santiago-atacama-y-patagon/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/es/itinerarios/itinerario-de-5-dias-en-nueva-york-que-hacer-y-donde-ir/</loc>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/es/itinerarios/itinerario-de-7-dias-en-italia-roma-florencia-y-venecia/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/es/itinerarios/nomada-digital-como-trabajar-viajando-por-el-mundo/</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://travelnomad.brightnest.blog/es/itinerarios/senderos-increibles-para-recorrer-en-la-patagonia/</loc>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/es/itinerarios/volcanes-activos-que-puedes-visitar-con-seguridad/</loc>
-    <lastmod>2026-08-09</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://travelnomad.brightnest.blog/es/transporte/como-alquilar-un-coche-en-el-extranjero-paso-a-paso/</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
