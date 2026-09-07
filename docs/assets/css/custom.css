@@ -1907,19 +1907,21 @@ table tbody tr:last-child td {
 .success-actions {margin-top:20px;}
 
 /* ===== ESTILOS DOS ANÚNCIOS ===== */
-.ad-container {
+.partner-box {
   margin: 2rem 0;
   padding: 1.25rem;
   border-radius: 12px;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border: 1px solid #dee2e6;
+  background: var(--surface);
+  border: 1px solid var(--border);
   transition: all 0.3s ease;
 }
-.ad-container:hover {
+
+.partner-box:hover {
   border-color: #ff6b00;
   box-shadow: 0 4px 20px rgba(255, 107, 0, 0.1);
 }
-.ad-container .ad-badge {
+
+.partner-box .partner-badge {
   display: inline-block;
   font-size: 0.65rem;
   text-transform: uppercase;
@@ -1931,29 +1933,42 @@ table tbody tr:last-child td {
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
-.ad-container .ad-content {
+
+.partner-box .partner-content {
   display: flex;
   align-items: center;
   gap: 1.5rem;
   flex-wrap: wrap;
 }
-.ad-container .ad-text {
+
+.partner-box .partner-icon {
+  font-size: 1.8rem;
+  color: #ff6b00;
+  flex-shrink: 0;
+}
+
+.partner-box .partner-text {
   flex: 1;
   min-width: 200px;
 }
-.ad-container .ad-text h4 {
+
+.partner-box .partner-text h4 {
   margin: 0 0 0.25rem 0;
   font-size: 1.1rem;
+  color: var(--text);
 }
-.ad-container .ad-text p {
+
+.partner-box .partner-text p {
   margin: 0;
   font-size: 0.9rem;
-  color: #555;
+  color: var(--text-muted);
 }
-.ad-container .ad-cta {
+
+.partner-box .partner-cta {
   flex-shrink: 0;
 }
-.ad-container .ad-cta a {
+
+.partner-box .partner-cta a {
   display: inline-block;
   background: #ff6b00;
   color: #fff;
@@ -1962,77 +1977,152 @@ table tbody tr:last-child td {
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
-  transition: background 0.2s;
-}
-.ad-container .ad-cta a:hover {
-  background: #e05e00;
-}
-.ad-container .ad-icon {
-  font-size: 1.8rem;
-  color: #ff6b00;
-  flex-shrink: 0;
+  transition: all 0.2s ease;
 }
 
-.sidebar-ad {
-  background: #f8f9fa;
+.partner-box .partner-cta a:hover {
+  background: #e05e00;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 0, 0.3);
+}
+
+.partner-box .partner-cta a i {
+  margin-left: 4px;
+  transition: transform 0.2s ease;
+}
+
+.partner-box .partner-cta a:hover i {
+  transform: translateX(4px);
+}
+
+/* =====================================================
+   BLOCO 2: SIDEBAR PARTNER
+   ===================================================== */
+
+.sidebar-partner {
+  background: var(--surface);
   border-radius: 12px;
   padding: 1.25rem;
   margin-top: 1.5rem;
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--border);
   text-align: center;
+  transition: all 0.3s ease;
 }
-.sidebar-ad .ad-badge {
+
+.sidebar-partner:hover {
+  box-shadow: 0 4px 20px rgba(233, 69, 96, 0.15);
+}
+
+.sidebar-partner .partner-badge {
   font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #ff6b00;
+  color: var(--secondary);
   font-weight: 700;
 }
-.sidebar-ad h4 {
+
+.sidebar-partner h4 {
+  color: var(--text);
   margin: 0.5rem 0 0.25rem;
   font-size: 1rem;
 }
-.sidebar-ad p {
+
+.sidebar-partner p {
   font-size: 0.85rem;
-  color: #666;
+  color: var(--text-muted);
   margin: 0 0 0.75rem;
+  line-height: 1.5;
 }
-.sidebar-ad a {
+
+.sidebar-partner a {
   display: inline-block;
-  background: #ff6b00;
+  background:var(--secondary);
   color: #fff;
   padding: 0.4rem 1.2rem;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.8rem;
-  transition: background 0.2s;
-}
-.sidebar-ad a:hover {
-  background: #e05e00;
+  transition: all 0.2s ease;
 }
 
-.ad-divider {
+.sidebar-partner a:hover {
+  background: var (--secondary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(233, 69, 96, 0.3);
+}
+
+.sidebar-partner a i {
+  margin-left: 4px;
+  transition: transform 0.2s ease;
+}
+
+.sidebar-partner a:hover i {
+  transform: translateX(4px);
+}
+
+/* =====================================================
+   DIVIDER
+   ===================================================== */
+
+.partner-divider {
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: #adb5bd;
+  color: var(--text-muted);
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 1.5rem 0;
 }
-.ad-divider::before,
-.ad-divider::after {
+
+.partner-divider::before,
+.partner-divider::after {
   content: "";
   flex: 1;
   height: 1px;
-  background: #dee2e6;
+  background: var(--border);
 }
 
+/* =====================================================
+   RESPONSIVO
+   ===================================================== */
+
 @media (max-width: 768px) {
-  .ad-container .ad-content {
+  .partner-box .partner-content {
     flex-direction: column;
     text-align: center;
+  }
+
+  .partner-box .partner-icon {
+    margin-bottom: 0.5rem;
+  }
+
+  .partner-box .partner-cta a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar-partner {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partner-box {
+    padding: 1rem;
+  }
+
+  .partner-box .partner-text h4 {
+    font-size: 1rem;
+  }
+
+  .partner-box .partner-text p {
+    font-size: 0.85rem;
+  }
+
+  .sidebar-partner {
+    padding: 1rem;
   }
 }
