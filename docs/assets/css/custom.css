@@ -683,7 +683,9 @@
   transition: background 0.2s;
   letter-spacing: 0.2px;
   text-align: center;
+  margin-bottom:10px;
 }
+.widget-planeje .btn-planeje:hover {color: bisque;}
 
 .btn-booking {
   background: #003580;
@@ -693,7 +695,6 @@
 
 .btn-booking:hover {
   background: #00224f;
-  color:none !important;
 }
 
 .btn-seguro {
@@ -1442,7 +1443,9 @@ table tbody tr:last-child td {
   margin: 24px 0;
   border-left: 4px solid #2c7be5;
   flex-wrap: wrap;
+  text-align: center;
 }
+.travel-tip-box svg {margin: 0 auto;}
 
 [data-theme="dark"] .travel-tip-box {
   background: #1a2630;
@@ -1453,11 +1456,11 @@ table tbody tr:last-child td {
   font-size: 28px;
   flex-shrink: 0;
   line-height: 1;
+  margin: 0 auto;
 }
 
 .travel-tip-box > div {
-  flex: 1;
-  min-width: 180px;
+ 
 }
 
 .travel-tip-title {
@@ -1484,6 +1487,7 @@ table tbody tr:last-child td {
 
 .travel-tip-cta {
   flex-shrink: 0;
+  margin: 0 auto;
 }
 
 .btn-tip {
@@ -1500,6 +1504,7 @@ table tbody tr:last-child td {
 
 .btn-tip:hover {
   background: #1a5fbf;
+     color: cyan;
 }
 
 /* =====================================================
@@ -1893,5 +1898,141 @@ table tbody tr:last-child td {
   .share-section {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+/* ---------- thankyou ---------- */
+.success-section {margin-top:30px;}
+.success-content h1 {margin-bottom:15px;}
+.success-actions {margin-top:20px;}
+
+/* ===== ESTILOS DOS ANÚNCIOS ===== */
+.ad-container {
+  margin: 2rem 0;
+  padding: 1.25rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+}
+.ad-container:hover {
+  border-color: #ff6b00;
+  box-shadow: 0 4px 20px rgba(255, 107, 0, 0.1);
+}
+.ad-container .ad-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #ff6b00;
+  color: #fff;
+  padding: 0.15rem 0.75rem;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.ad-container .ad-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.ad-container .ad-text {
+  flex: 1;
+  min-width: 200px;
+}
+.ad-container .ad-text h4 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+}
+.ad-container .ad-text p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+.ad-container .ad-cta {
+  flex-shrink: 0;
+}
+.ad-container .ad-cta a {
+  display: inline-block;
+  background: #ff6b00;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+.ad-container .ad-cta a:hover {
+  background: #e05e00;
+}
+.ad-container .ad-icon {
+  font-size: 1.8rem;
+  color: #ff6b00;
+  flex-shrink: 0;
+}
+
+.sidebar-ad {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-top: 1.5rem;
+  border: 1px solid #e9ecef;
+  text-align: center;
+}
+.sidebar-ad .ad-badge {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ff6b00;
+  font-weight: 700;
+}
+.sidebar-ad h4 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1rem;
+}
+.sidebar-ad p {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0 0 0.75rem;
+}
+.sidebar-ad a {
+  display: inline-block;
+  background: #ff6b00;
+  color: #fff;
+  padding: 0.4rem 1.2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: background 0.2s;
+}
+.sidebar-ad a:hover {
+  background: #e05e00;
+}
+
+.ad-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #adb5bd;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 1.5rem 0;
+}
+.ad-divider::before,
+.ad-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #dee2e6;
+}
+
+@media (max-width: 768px) {
+  .ad-container .ad-content {
+    flex-direction: column;
+    text-align: center;
   }
 }
