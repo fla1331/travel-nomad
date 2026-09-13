@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /assets/
-Disallow: /404.html
 
 Sitemap: https://travelnomad.brightnest.blog/pt/sitemap.xml
 Sitemap: https://travelnomad.brightnest.blog/en/sitemap.xml
