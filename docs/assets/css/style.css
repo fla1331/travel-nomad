@@ -705,7 +705,7 @@ li { margin-bottom: 0.25rem; }
 }
 .article-body h3 {
   font-size: 1.4rem;
-  margin: var(--space-3) 0 var(--space-1);
+  margin: 10px;
 }
 .article-body h4 {
   font-size: 1.15rem;
