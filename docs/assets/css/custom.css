@@ -2126,14 +2126,14 @@ html {
 .article-body blockquote {display:none;}
 
 /* ===== BANNER ===== */
-.banner-ad {
+.banner-bottom {
   margin: 36px auto;
   text-align: center;
   position: relative;width:90%;
 }
 
 /* Traço fino + label "Publicidade" */
-.banner-ad__label {
+.banner-bottom__label {
   display: block;
   font-size: 10px;
   font-weight: 600;
@@ -2146,7 +2146,7 @@ html {
 }
 
 /* Traço fino acima do label */
-.banner-ad__label::before {
+.banner-bottom__label::before {
   content: '';
   position: absolute;
   top: 0;
@@ -2158,7 +2158,7 @@ html {
 }
 
 /* Imagem do banner */
-.banner-ad .banner-footer__image {
+.banner-bottom .banner-footer__image {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
@@ -2168,14 +2168,14 @@ html {
 
 /* Mobile */
 @media (max-width: 768px) {
-  .banner-ad {
+  .banner-bottom {
     margin: 28px 0;
   }
-  .banner-ad__label {
+  .banner-bottom__label {
     font-size: 9px;
     letter-spacing: 1px;
   }
-  .banner-ad__label::before {
+  .banner-bottom__label::before {
     width: 30px;
   }
 }
