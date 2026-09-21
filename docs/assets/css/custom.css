@@ -1008,6 +1008,10 @@
 }
 
 @media (max-width: 480px) {
+
+.banner-footer 
+{width:100%;
+}
   .cookie-actions {
     width: 100%;
   }
@@ -2116,5 +2120,62 @@ html {
 
   .widget-planeje .btn-planeje {
     padding: 12px 0;
+  }
+}
+
+.article-body blockquote {display:none;}
+
+/* ===== BANNER ===== */
+.banner-ad {
+  margin: 36px auto;
+  text-align: center;
+  position: relative;width:90%;
+}
+
+/* Traço fino + label "Publicidade" */
+.banner-ad__label {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #8899aa;
+  margin-bottom: 10px;
+  position: relative;
+  padding-top: 12px;
+}
+
+/* Traço fino acima do label */
+.banner-ad__label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 1px;
+  background: #d0d7e2;
+}
+
+/* Imagem do banner */
+.banner-ad .banner-footer__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(11, 31, 58, 0.10);
+  display: inline-block;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .banner-ad {
+    margin: 28px 0;
+  }
+  .banner-ad__label {
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+  .banner-ad__label::before {
+    width: 30px;
   }
 }
