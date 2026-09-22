@@ -242,7 +242,7 @@ li { margin-bottom: 0.25rem; }
   white-space: nowrap;
 }
 .logo:hover { color: var(--secondary); }
-.logo-icon { font-size: 1.5rem; line-height: 1; }
+.logo-icon { font-size: 1.25rem; line-height: 1; }
 .logo-icon svg { float: left; }
 .logo-icon .logo-name { top: 15px; position: relative; left: 5px; }
 
@@ -258,11 +258,11 @@ li { margin-bottom: 0.25rem; }
 .nav-list a {
   display: block;
   padding: 0.5rem 0.9rem;
-  font-weight: 500;
+  font-weight: 700 !important;
   font-size: 0.95rem;
   color: var(--text);
   border-radius: var(--radius);
-  transition: all var(--transition);
+  transition: all var(--transition);font-family: ui-rounded;
 }
 .nav-list a:hover, .nav-list a.ativo {
   color: var(--secondary);
