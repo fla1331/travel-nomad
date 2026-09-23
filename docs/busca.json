@@ -1,0 +1,624 @@
+{
+  "pt": [
+    {
+      "titulo": "Melhores Destinos na América do Sul para Viajar",
+      "url": "/pt/destinos/melhores-destinos-america-sul/",
+      "categoria": "destinos",
+      "categoria_nome": "Destinos",
+      "data": "2026-09-14",
+      "imagem": "https://images.unsplash.com/photo-1591533985302-42123fa9240b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg3NDA0ODN8&ixlib=rb-4.1.0&q=80&w=1080?t=1788740556171&cache=1788740556171"
+    },
+    {
+      "titulo": "Melhores Destinos na África para Viajar",
+      "url": "/pt/destinos/melhores-destinos-africa/",
+      "categoria": "destinos",
+      "categoria_nome": "Destinos",
+      "data": "2026-09-15",
+      "imagem": "https://images.pexels.com/photos/5212461/pexels-photo-5212461.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1788733643661&cache=1788733643661"
+    },
+    {
+      "titulo": "Melhores Destinos na Oceania para Viajar",
+      "url": "/pt/destinos/melhores-destinos-oceania/",
+      "categoria": "destinos",
+      "categoria_nome": "Destinos",
+      "data": "2026-09-16",
+      "imagem": "https://images.unsplash.com/photo-1746572291053-7e710f314dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg4MDU1MjR8&ixlib=rb-4.1.0&q=80&w=1080?t=1788805597911&cache=1788805597911"
+    },
+    {
+      "titulo": "Paella Valenciana: Receita Original Passo a Passo",
+      "url": "/pt/gastronomia/receita-paella-valenciana-tradicional/",
+      "categoria": "gastronomia",
+      "categoria_nome": "Gastronomia",
+      "data": "2026-05-10",
+      "imagem": "https://images.unsplash.com/photo-1593969430392-d80892aad146?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzOTcyNTN8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987456&cache=1788397323300"
+    },
+    {
+      "titulo": "Portugal: Pratos Típicos que Você Precisa Provar",
+      "url": "/pt/gastronomia/guia-gastronomico-portugal-pratos-tipicos/",
+      "categoria": "gastronomia",
+      "categoria_nome": "Gastronomia",
+      "data": "2026-05-14",
+      "imagem": "https://images.unsplash.com/photo-1692694994201-1a09c7cc12bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzNzkyNTZ8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987436&cache=1788379326496"
+    },
+    {
+      "titulo": "Tacos Mexicanos Autênticos: Receita Caseira",
+      "url": "/pt/gastronomia/receita-tacos-mexicanos-autenticos/",
+      "categoria": "gastronomia",
+      "categoria_nome": "Gastronomia",
+      "data": "2026-05-18",
+      "imagem": "https://images.unsplash.com/photo-1663626913917-8a638838905e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg0MDQ4MzV8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987476&cache=1788404906303"
+    },
+    {
+      "titulo": "Comida de Rua na Ásia: O Que Comer e Onde",
+      "url": "/pt/gastronomia/comida-rua-asia-guia/",
+      "categoria": "gastronomia",
+      "categoria_nome": "Gastronomia",
+      "data": "2026-09-11",
+      "imagem": "https://images.unsplash.com/photo-1698940519281-ef9251cb0849?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzOTc3NzZ8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987413&cache=1788397847144"
+    },
+    {
+      "titulo": "Nova York em 5 Dias: Roteiro Completo",
+      "url": "/pt/roteiros/roteiro-5-dias-nova-york/",
+      "categoria": "roteiros",
+      "categoria_nome": "Roteiros",
+      "data": "2026-01-30",
+      "imagem": "https://images.unsplash.com/photo-1638708736340-16f0d0d1ca3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzMTQyNjB8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987575&cache=1786314320229"
+    },
+    {
+      "titulo": "Comida de Rua em Bangkok: O que Experimentar",
+      "url": "/pt/roteiros/comida-de-rua-tailandia-bangkok/",
+      "categoria": "roteiros",
+      "categoria_nome": "Roteiros",
+      "data": "2026-05-22",
+      "imagem": "https://images.unsplash.com/photo-1704881660985-a5d33394e76f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY4ODU4NDF8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987509&cache=1786885902965"
+    },
+    {
+      "titulo": "Trilhas na Patagônia: As Melhores Rotas",
+      "url": "/pt/roteiros/trilhas-incriveis-patagonia/",
+      "categoria": "roteiros",
+      "categoria_nome": "Roteiros",
+      "data": "2026-05-30",
+      "imagem": "https://images.unsplash.com/photo-1748734541078-cbc91617295a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzNjE4NDl8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987636&cache=1788361919804"
+    },
+    {
+      "titulo": "Vulcões Ativos que Você Pode Visitar",
+      "url": "/pt/roteiros/vulcoes-ativos-para-visitar-com-seguranca/",
+      "categoria": "roteiros",
+      "categoria_nome": "Roteiros",
+      "data": "2026-06-15",
+      "imagem": "https://images.unsplash.com/photo-1783197287614-9f1f20e65f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYyODM0ODF8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987658&cache=1786283541108"
+    },
+    {
+      "titulo": "Nômade Digital: Cidades para Viver e Trabalhar",
+      "url": "/pt/roteiros/nomade-digital-como-trabalhar-viajando/",
+      "categoria": "roteiros",
+      "categoria_nome": "Roteiros",
+      "data": "2026-07-21",
+      "imagem": "https://images.pexels.com/photos/6181107/pexels-photo-6181107.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1788628987554&cache=1786191460157"
+    },
+    {
+      "titulo": "Chile em 10 Dias: Roteiro Santiago, Atacama e Patagônia",
+      "url": "/pt/roteiros/guia-chile-santiago-atacama-patagonia/",
+      "categoria": "roteiros",
+      "categoria_nome": "Roteiros",
+      "data": "2026-08-07",
+      "imagem": "https://images.unsplash.com/photo-1558796522-75dfd33fb008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxMjQ5MjJ8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987531&cache=1786124979646"
+    },
+    {
+      "titulo": "Itália em 7 Dias: Roma, Florença e Veneza",
+      "url": "/pt/roteiros/roteiro-7-dias-italia/",
+      "categoria": "roteiros",
+      "categoria_nome": "Roteiros",
+      "data": "2026-08-07",
+      "imagem": "https://images.pexels.com/photos/5793617/pexels-photo-5793617.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1788628987614&cache=1786114908905"
+    },
+    {
+      "titulo": "Como Alugar um Carro no Exterior: Passo a Passo",
+      "url": "/pt/transporte/como-alugar-carro-no-exterior/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-04-16",
+      "imagem": "https://images.unsplash.com/photo-1593704913592-a9bbafd34850?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODg1NjF8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987681&cache=1786188619100"
+    },
+    {
+      "titulo": "Onde Ficar em Nova York: Melhores Bairros",
+      "url": "/pt/hospedagem/onde-ficar-nova-york/",
+      "categoria": "hospedagem",
+      "categoria_nome": "Hospedagem",
+      "data": "2026-09-12",
+      "imagem": "https://images.unsplash.com/photo-1585929292292-4e69883432a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkyNzUzMjJ8&ixlib=rb-4.1.0&q=80&w=1080?t=1789275398973&seed=onde-ficar-nova-york17892753989731789364646884"
+    },
+    {
+      "titulo": "Onde Ficar em Lisboa: Melhores Bairros",
+      "url": "/pt/hospedagem/onde-ficar-lisboa/",
+      "categoria": "hospedagem",
+      "categoria_nome": "Hospedagem",
+      "data": "2026-09-16",
+      "imagem": "https://images.unsplash.com/photo-1767357354783-54d11d487256?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTAwMTE5NDF8&ixlib=rb-4.1.0&q=80&w=1080?t=1790012057005&seed=onde-ficar-lisboa17900120246551790097915373"
+    },
+    {
+      "titulo": "Onde Ficar em Barcelona: Melhores Bairros",
+      "url": "/pt/hospedagem/onde-ficar-barcelona/",
+      "categoria": "hospedagem",
+      "categoria_nome": "Hospedagem",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789294452396"
+    },
+    {
+      "titulo": "Onde Ficar em Bangkok: Melhores Bairros",
+      "url": "/pt/hospedagem/onde-ficar-bangkok/",
+      "categoria": "hospedagem",
+      "categoria_nome": "Hospedagem",
+      "data": "2026-09-17",
+      "imagem": "https://images.unsplash.com/photo-1558655838-6895927b8340?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkyODQzNzB8&ixlib=rb-4.1.0&q=80&w=1080?t=1789284445796&seed=onde-ficar-bangkok17892844457961789368012028"
+    },
+    {
+      "titulo": "Hostels pela Europa: Os Melhores para Mochileiros",
+      "url": "/pt/hospedagem/melhores-hostels-europa-mochileiros/",
+      "categoria": "hospedagem",
+      "categoria_nome": "Hospedagem",
+      "data": "2026-09-17",
+      "imagem": "https://images.pexels.com/photos/7968283/pexels-photo-7968283.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1789655027398&seed=melhores-hostels-europa-mochileiros17896550273981789715955869"
+    },
+    {
+      "titulo": "Roteiro de 7 Dias na Argentina",
+      "url": "/pt/roteiros/roteiro-7-dias-argentina/",
+      "categoria": "roteiros",
+      "categoria_nome": "Roteiros",
+      "data": "2026-09-21",
+      "imagem": "https://images.unsplash.com/photo-1725499267114-15531716d101?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1790006885887"
+    },
+    {
+      "titulo": "Franquia de Bagagem: Como Funciona",
+      "url": "/pt/transporte/franquia-bagagem-como-funciona/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-09-18",
+      "imagem": "https://images.unsplash.com/photo-1609788077750-8cad3315eead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk5MzkyNzR8&ixlib=rb-4.1.0&q=80&w=1080?t=1789939356380&seed=franquia-bagagem-como-funciona17899393563801789997023380"
+    },
+    {
+      "titulo": "Alugar Carro na Europa: Manual Completo",
+      "url": "/pt/transporte/alugar-carro-europa-manual/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-09-09",
+      "imagem": "https://plus.unsplash.com/premium_photo-1661775983935-579b5c94e2c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789309235047"
+    },
+    {
+      "titulo": "Voos com Conexão vs Diretos: O que Considerar",
+      "url": "/pt/transporte/voos-conexao-vs-diretos/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-09-10",
+      "imagem": "https://images.unsplash.com/photo-1661154094523-7be4fe39a05b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMDQ1Nzd8&ixlib=rb-4.1.0&q=80&w=1080?t=1789304653552&seed=voos-conexao-vs-diretos17893046535521789353790517"
+    },
+    {
+      "titulo": "Perdeu o Voo? O que Fazer",
+      "url": "/pt/transporte/o-que-fazer-se-perder-voo/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-09-21",
+      "imagem": "https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1790080678552&seed=o-que-fazer-se-perder-voo17900806731721790086696020"
+    }
+  ],
+  "en": [
+    {
+      "titulo": "Best Travel Destinations in Africa",
+      "url": "/en/destinations/best-travel-destinations-in-africa/",
+      "categoria": "destinations",
+      "categoria_nome": "Destinations",
+      "data": "2026-09-06",
+      "imagem": "https://images.pexels.com/photos/5212461/pexels-photo-5212461.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1788733643661&cache=1788733643661"
+    },
+    {
+      "titulo": "Best Destinations in Oceania to Travel",
+      "url": "/en/destinations/best-destinations-in-oceania-to-travel/",
+      "categoria": "destinations",
+      "categoria_nome": "Destinations",
+      "data": "2026-09-07",
+      "imagem": "https://images.unsplash.com/photo-1746572291053-7e710f314dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg4MDU1MjR8&ixlib=rb-4.1.0&q=80&w=1080?t=1788805597911&cache=1788805597911"
+    },
+    {
+      "titulo": "Best Travel Destinations in South America",
+      "url": "/en/destinations/best-travel-destinations-in-south-america/",
+      "categoria": "destinations",
+      "categoria_nome": "Destinations",
+      "data": "2026-09-06",
+      "imagem": "https://images.unsplash.com/photo-1591533985302-42123fa9240b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg3NDA0ODN8&ixlib=rb-4.1.0&q=80&w=1080?t=1788740556171&cache=1788740556171"
+    },
+    {
+      "titulo": "Authentic Mexican Tacos: Homemade Recipe",
+      "url": "/en/gastronomy/authentic-mexican-tacos-homemade-recipe/",
+      "categoria": "gastronomy",
+      "categoria_nome": "Gastronomy",
+      "data": "2026-09-06",
+      "imagem": "https://images.unsplash.com/photo-1663626913917-8a638838905e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg0MDQ4MzV8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987476&cache=1788404906303"
+    },
+    {
+      "titulo": "Portugal: Typical Dishes You Must Try",
+      "url": "/en/gastronomy/portugal-typical-dishes-you-must-try/",
+      "categoria": "gastronomy",
+      "categoria_nome": "Gastronomy",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1692694994201-1a09c7cc12bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzNzkyNTZ8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987436&cache=1788379326496"
+    },
+    {
+      "titulo": "Paella Valenciana: Original Step-by-Step Recipe",
+      "url": "/en/gastronomy/paella-valenciana-original-step-by-step-recipe/",
+      "categoria": "gastronomy",
+      "categoria_nome": "Gastronomy",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1593969430392-d80892aad146?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzOTcyNTN8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987456&cache=1788397323300"
+    },
+    {
+      "titulo": "Street Food in Asia: What to Eat and Where",
+      "url": "/en/gastronomy/street-food-in-asia-what-to-eat-and-where/",
+      "categoria": "gastronomy",
+      "categoria_nome": "Gastronomy",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1698940519281-ef9251cb0849?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzOTc3NzZ8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987413&cache=1788397847144"
+    },
+    {
+      "titulo": "New York in 5 Days: Complete Itinerary",
+      "url": "/en/itineraries/new-york-in-5-days-complete-itinerary/",
+      "categoria": "itineraries",
+      "categoria_nome": "Itineraries",
+      "data": "2026-01-30",
+      "imagem": "https://images.unsplash.com/photo-1638708736340-16f0d0d1ca3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzMTQyNjB8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987575&cache=1786314320229"
+    },
+    {
+      "titulo": "Italy in 7 Days: Rome, Florence, and Venice",
+      "url": "/en/itineraries/italy-in-7-days-rome-florence-and-venice/",
+      "categoria": "itineraries",
+      "categoria_nome": "Itineraries",
+      "data": "2026-08-07",
+      "imagem": "https://images.pexels.com/photos/5793617/pexels-photo-5793617.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1788628987614&cache=1786114908905"
+    },
+    {
+      "titulo": "Active Volcanoes You Can Visit",
+      "url": "/en/itineraries/active-volcanoes-you-can-visit/",
+      "categoria": "itineraries",
+      "categoria_nome": "Itineraries",
+      "data": "2026-06-15",
+      "imagem": "https://images.unsplash.com/photo-1783197287614-9f1f20e65f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYyODM0ODF8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987658&cache=1786283541108"
+    },
+    {
+      "titulo": "Complete Guide to Traveling to Chile Santiago Atacama",
+      "url": "/en/itineraries/complete-guide-to-traveling-to-chile-santiago-atacama-and-pa/",
+      "categoria": "itineraries",
+      "categoria_nome": "Itineraries",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1568342918430-42121415a83c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5MDAzNTN8&ixlib=rb-4.1.0&q=80&w=1080?t=1788900426527&cache=1788900426527"
+    },
+    {
+      "titulo": "Digital Nomad: Cities to Live and Work",
+      "url": "/en/itineraries/digital-nomad-cities-to-live-and-work/",
+      "categoria": "itineraries",
+      "categoria_nome": "Itineraries",
+      "data": "2026-07-21",
+      "imagem": "https://images.pexels.com/photos/6181107/pexels-photo-6181107.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1788628987554&cache=1786191460157"
+    },
+    {
+      "titulo": "Trails in Patagonia: The Best Routes",
+      "url": "/en/itineraries/trails-in-patagonia-the-best-routes/",
+      "categoria": "itineraries",
+      "categoria_nome": "Itineraries",
+      "data": "2026-05-30",
+      "imagem": "https://images.unsplash.com/photo-1748734541078-cbc91617295a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzNjE4NDl8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987636&cache=1788361919804"
+    },
+    {
+      "titulo": "Street Food in Bangkok: What to Try",
+      "url": "/en/itineraries/street-food-in-bangkok-what-to-try/",
+      "categoria": "itineraries",
+      "categoria_nome": "Itineraries",
+      "data": "2026-05-22",
+      "imagem": "https://images.unsplash.com/photo-1704881660985-a5d33394e76f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY4ODU4NDF8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987509&cache=1786885902965"
+    },
+    {
+      "titulo": "How to Rent a Car Abroad: Step by Step",
+      "url": "/en/transportation/how-to-rent-a-car-abroad-step-by-step/",
+      "categoria": "transportation",
+      "categoria_nome": "Transportation",
+      "data": "2026-04-16",
+      "imagem": "https://images.unsplash.com/photo-1593704913592-a9bbafd34850?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODg1NjF8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987681&cache=1786188619100"
+    },
+    {
+      "titulo": "Chile in 10 Days: Itinerary Santiago, Atacama, and Patagonia",
+      "url": "/en/itineraries/chile-in-10-days-itinerary-santiago-atacama-and-patagonia/",
+      "categoria": "itineraries",
+      "categoria_nome": "Itineraries",
+      "data": "2026-09-08",
+      "imagem": "https://images.unsplash.com/photo-1558796522-75dfd33fb008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxMjQ5MjJ8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987531&cache=1786124979646"
+    },
+    {
+      "titulo": "Where to Stay in New York: Best Neighborhoods",
+      "url": "/en/accommodation/where-to-stay-in-new-york-best-neighborhoods/",
+      "categoria": "accommodation",
+      "categoria_nome": "Accommodation",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1585929292292-4e69883432a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkyNzUzMjJ8&ixlib=rb-4.1.0&q=80&w=1080?t=1789275398973&seed=onde-ficar-nova-york17892753989731789364646884"
+    },
+    {
+      "titulo": "Where to Stay in Bangkok: Best Neighborhoods",
+      "url": "/en/accommodation/where-to-stay-in-bangkok-best-neighborhoods/",
+      "categoria": "accommodation",
+      "categoria_nome": "Accommodation",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1558655838-6895927b8340?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkyODQzNzB8&ixlib=rb-4.1.0&q=80&w=1080?t=1789284445796&seed=onde-ficar-bangkok17892844457961789368012028"
+    },
+    {
+      "titulo": "Where to Stay in Barcelona: Best Neighborhoods",
+      "url": "/en/accommodation/where-to-stay-in-barcelona-best-neighborhoods/",
+      "categoria": "accommodation",
+      "categoria_nome": "Accommodation",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789294452396"
+    },
+    {
+      "titulo": "Renting a Car in Europe: Complete Guide",
+      "url": "/en/transportation/renting-a-car-in-europe-complete-guide/",
+      "categoria": "transportation",
+      "categoria_nome": "Transportation",
+      "data": "2026-09-13",
+      "imagem": "https://plus.unsplash.com/premium_photo-1661775983935-579b5c94e2c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789309235076"
+    },
+    {
+      "titulo": "Connecting Flights vs Direct Flights: What to Consider",
+      "url": "/en/transportation/connecting-flights-vs-direct-flights-what-to-consider/",
+      "categoria": "transportation",
+      "categoria_nome": "Transportation",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1661154094523-7be4fe39a05b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMDQ1Nzd8&ixlib=rb-4.1.0&q=80&w=1080?t=1789304653552&seed=voos-conexao-vs-diretos17893046535521789353790517"
+    },
+    {
+      "titulo": "Where to Stay in Lisbon: Best Neighborhoods",
+      "url": "/en/accommodation/where-to-stay-in-lisbon-best-neighborhoods/",
+      "categoria": "accommodation",
+      "categoria_nome": "Accommodation",
+      "data": "2026-09-21",
+      "imagem": "https://images.unsplash.com/photo-1767357354783-54d11d487256?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTAwMTE5NDF8&ixlib=rb-4.1.0&q=80&w=1080?t=1790012057012&seed=onde-ficar-lisboa17900120246551790097915373"
+    },
+    {
+      "titulo": "Hostels pela Europa: Os Melhores para Mochileiros",
+      "url": "/en/accommodation/hostels-pela-europa-os-melhores-para-mochileiros/",
+      "categoria": "accommodation",
+      "categoria_nome": "Accommodation",
+      "data": "2026-09-21",
+      "imagem": "https://images.pexels.com/photos/7968283/pexels-photo-7968283.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1789655027398&seed=melhores-hostels-europa-mochileiros17896550273981789715955869"
+    },
+    {
+      "titulo": "7-Day Itinerary in Argentina",
+      "url": "/en/itineraries/7-day-itinerary-in-argentina/",
+      "categoria": "itineraries",
+      "categoria_nome": "Itineraries",
+      "data": "2026-09-21",
+      "imagem": "https://images.unsplash.com/photo-1725499267114-15531716d101?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1790006885887"
+    },
+    {
+      "titulo": "Baggage Allowance: How It Works",
+      "url": "/en/transportation/baggage-allowance-how-it-works/",
+      "categoria": "transportation",
+      "categoria_nome": "Transportation",
+      "data": "2026-09-21",
+      "imagem": "https://images.unsplash.com/photo-1609788077750-8cad3315eead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk5MzkyNzR8&ixlib=rb-4.1.0&q=80&w=1080?t=1789939356380&seed=franquia-bagagem-como-funciona17899393563801789997023380"
+    },
+    {
+      "titulo": "Missed the Flight? What to Do",
+      "url": "/en/transportation/missed-the-flight-what-to-do/",
+      "categoria": "transportation",
+      "categoria_nome": "Transportation",
+      "data": "2026-09-21",
+      "imagem": "https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1790080678566&seed=o-que-fazer-se-perder-voo17900806731721790086696020"
+    }
+  ],
+  "es": [
+    {
+      "titulo": "Mejores Destinos en África para Viajar",
+      "url": "/es/destinos/mejores-destinos-en-africa-para-viajar/",
+      "categoria": "destinos",
+      "categoria_nome": "Destinos",
+      "data": "2026-09-06",
+      "imagem": "https://images.pexels.com/photos/5212461/pexels-photo-5212461.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1788733643661&cache=1788733643661"
+    },
+    {
+      "titulo": "Mejores Destinos en América del Sur para Viajar",
+      "url": "/es/destinos/mejores-destinos-en-america-del-sur-para-viajar/",
+      "categoria": "destinos",
+      "categoria_nome": "Destinos",
+      "data": "2026-09-06",
+      "imagem": "https://images.unsplash.com/photo-1591533985302-42123fa9240b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg3NDA0ODN8&ixlib=rb-4.1.0&q=80&w=1080?t=1788740556171&cache=1788740556171"
+    },
+    {
+      "titulo": "Mejores Destinos en Oceanía para Viajar",
+      "url": "/es/destinos/mejores-destinos-en-oceania-para-viajar/",
+      "categoria": "destinos",
+      "categoria_nome": "Destinos",
+      "data": "2026-09-07",
+      "imagem": "https://images.unsplash.com/photo-1746572291053-7e710f314dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg4MDU1MjR8&ixlib=rb-4.1.0&q=80&w=1080?t=1788805597911&cache=1788805597911"
+    },
+    {
+      "titulo": "Comida Callejera en Asia: Qué Comer y Dónde",
+      "url": "/es/gastronomia/comida-callejera-en-asia-que-comer-y-donde/",
+      "categoria": "gastronomia",
+      "categoria_nome": "Gastronomía",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1698940519281-ef9251cb0849?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzOTc3NzZ8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987413&cache=1788397847144"
+    },
+    {
+      "titulo": "Portugal: Platos Típicos que Necesitas Probar",
+      "url": "/es/gastronomia/portugal-platos-tipicos-que-necesitas-probar/",
+      "categoria": "gastronomia",
+      "categoria_nome": "Gastronomía",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1692694994201-1a09c7cc12bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzNzkyNTZ8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987436&cache=1788379326496"
+    },
+    {
+      "titulo": "Paella Valenciana: Receta Original Paso a Paso",
+      "url": "/es/gastronomia/paella-valenciana-receta-original-paso-a-paso/",
+      "categoria": "gastronomia",
+      "categoria_nome": "Gastronomía",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1593969430392-d80892aad146?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzOTcyNTN8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987456&cache=1788397323300"
+    },
+    {
+      "titulo": "Tacos Mexicanos Auténticos: Receta Casera",
+      "url": "/es/gastronomia/tacos-mexicanos-autenticos-receta-casera/",
+      "categoria": "gastronomia",
+      "categoria_nome": "Gastronomía",
+      "data": "2026-09-06",
+      "imagem": "https://images.unsplash.com/photo-1663626913917-8a638838905e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg0MDQ4MzV8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987476&cache=1788404906303"
+    },
+    {
+      "titulo": "Chile en 10 Días: Itinerario Santiago, Atacama y Patagonia",
+      "url": "/es/itinerarios/chile-en-10-dias-itinerario-santiago-atacama-y-patagonia/",
+      "categoria": "itinerarios",
+      "categoria_nome": "Itinerarios",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1558796522-75dfd33fb008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxMjQ5MjJ8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987531&cache=1786124979646"
+    },
+    {
+      "titulo": "Guia Completo: Guía Completa para Viajar a Chile: Santiago, Atacama y Patagonia",
+      "url": "/es/itinerarios/guia-completa-para-viajar-a-chile-santiago-atacama-y-patagon/",
+      "categoria": "itinerarios",
+      "categoria_nome": "Itinerarios",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1673515335048-ace62cf73a26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg4MTQ0Njh8&ixlib=rb-4.1.0&q=80&w=1080?t=1788814541595&cache=1788814541595"
+    },
+    {
+      "titulo": "Nueva York en 5 Días: Itinerario Completo",
+      "url": "/es/itinerarios/nueva-york-en-5-dias-itinerario-completo/",
+      "categoria": "itinerarios",
+      "categoria_nome": "Itinerarios",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1638708736340-16f0d0d1ca3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzMTQyNjB8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987575&cache=1786314320229"
+    },
+    {
+      "titulo": "Italia en 7 Días: Roma, Florencia y Venecia",
+      "url": "/es/itinerarios/italia-en-7-dias-roma-florencia-y-venecia/",
+      "categoria": "itinerarios",
+      "categoria_nome": "Itinerarios",
+      "data": "2026-09-02",
+      "imagem": "https://images.pexels.com/photos/5793617/pexels-photo-5793617.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1788628987614&cache=1786114908905"
+    },
+    {
+      "titulo": "Nómada Digital: Ciudades para Vivir y Trabajar",
+      "url": "/es/itinerarios/nomada-digital-ciudades-para-vivir-y-trabajar/",
+      "categoria": "itinerarios",
+      "categoria_nome": "Itinerarios",
+      "data": "2026-09-02",
+      "imagem": "https://images.pexels.com/photos/6181107/pexels-photo-6181107.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1788628987554&cache=1786191460157"
+    },
+    {
+      "titulo": "Senderos en la Patagonia: Las Mejores Rutas",
+      "url": "/es/itinerarios/senderos-en-la-patagonia-las-mejores-rutas/",
+      "categoria": "itinerarios",
+      "categoria_nome": "Itinerarios",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1748734541078-cbc91617295a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgzNjE4NDl8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987636&cache=1788361919804"
+    },
+    {
+      "titulo": "Volcanes Activos que Puedes Visitar",
+      "url": "/es/itinerarios/volcanes-activos-que-puedes-visitar/",
+      "categoria": "itinerarios",
+      "categoria_nome": "Itinerarios",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1783197287614-9f1f20e65f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYyODM0ODF8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987658&cache=1786283541108"
+    },
+    {
+      "titulo": "Cómo Alquilar un Coche en el Extranjero: Paso a Paso",
+      "url": "/es/transporte/como-alquilar-un-coche-en-el-extranjero-paso-a-paso/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-09-02",
+      "imagem": "https://images.unsplash.com/photo-1593704913592-a9bbafd34850?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODg1NjF8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987681&cache=1786188619100"
+    },
+    {
+      "titulo": "Comida Callejera en Bangkok: Qué Probar",
+      "url": "/es/itinerarios/comida-callejera-en-bangkok-que-probar/",
+      "categoria": "itinerarios",
+      "categoria_nome": "Itinerarios",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1704881660985-a5d33394e76f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY4ODU4NDF8&ixlib=rb-4.1.0&q=80&w=1080?t=1788628987509&cache=1786885902965"
+    },
+    {
+      "titulo": "Dónde alojarse en Nueva York: Mejores barrios",
+      "url": "/es/alojamiento/donde-alojarse-en-nueva-york-mejores-barrios/",
+      "categoria": "alojamiento",
+      "categoria_nome": "Alojamiento",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1585929292292-4e69883432a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkyNzUzMjJ8&ixlib=rb-4.1.0&q=80&w=1080?t=1789275398973&seed=onde-ficar-nova-york17892753989731789364646884"
+    },
+    {
+      "titulo": "Dónde alojarse en Bangkok: Mejores barrios",
+      "url": "/es/alojamiento/donde-alojarse-en-bangkok-mejores-barrios/",
+      "categoria": "alojamiento",
+      "categoria_nome": "Alojamiento",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1558655838-6895927b8340?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkyODQzNzB8&ixlib=rb-4.1.0&q=80&w=1080?t=1789284445796&seed=onde-ficar-bangkok17892844457961789368012028"
+    },
+    {
+      "titulo": "Dónde alojarse en Barcelona: Mejores Barrios",
+      "url": "/es/alojamiento/donde-alojarse-en-barcelona-mejores-barrios/",
+      "categoria": "alojamiento",
+      "categoria_nome": "Alojamiento",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789294452396"
+    },
+    {
+      "titulo": "Alquilar Coche en Europa: Manual Completo",
+      "url": "/es/transporte/alquilar-coche-en-europa-manual-completo/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-09-13",
+      "imagem": "https://plus.unsplash.com/premium_photo-1661775983935-579b5c94e2c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789309235081"
+    },
+    {
+      "titulo": "Vuelos con Conexión vs Directos: Qué Considerar",
+      "url": "/es/transporte/vuelos-con-conexion-vs-directos-que-considerar/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-09-13",
+      "imagem": "https://images.unsplash.com/photo-1661154094523-7be4fe39a05b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMDQ1Nzd8&ixlib=rb-4.1.0&q=80&w=1080?t=1789304653552&seed=voos-conexao-vs-diretos17893046535521789353790517"
+    },
+    {
+      "titulo": "Dónde Alojarse en Lisboa: Mejores Barrios",
+      "url": "/es/alojamiento/donde-alojarse-en-lisboa-mejores-barrios/",
+      "categoria": "alojamiento",
+      "categoria_nome": "Alojamiento",
+      "data": "2026-09-21",
+      "imagem": "https://images.unsplash.com/photo-1767357354783-54d11d487256?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTAwMTE5NDF8&ixlib=rb-4.1.0&q=80&w=1080?t=1790012057018&seed=onde-ficar-lisboa17900120246551790097915373"
+    },
+    {
+      "titulo": "Hostales por Europa: Los Mejores para Mochileros",
+      "url": "/es/alojamiento/hostales-por-europa-los-mejores-para-mochileros/",
+      "categoria": "alojamiento",
+      "categoria_nome": "Alojamiento",
+      "data": "2026-09-21",
+      "imagem": "https://images.pexels.com/photos/7968283/pexels-photo-7968283.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1789655027398&seed=melhores-hostels-europa-mochileiros17896550273981789715955869"
+    },
+    {
+      "titulo": "Itinerario de 7 Días en Argentina",
+      "url": "/es/itinerarios/itinerario-de-7-dias-en-argentina/",
+      "categoria": "itinerarios",
+      "categoria_nome": "Itinerarios",
+      "data": "2026-09-21",
+      "imagem": "https://images.unsplash.com/photo-1725499267114-15531716d101?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1790006885887"
+    },
+    {
+      "titulo": "Franquia de Equipaje: Cómo Funciona",
+      "url": "/es/transporte/franquia-de-equipaje-como-funciona/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-09-21",
+      "imagem": "https://images.unsplash.com/photo-1609788077750-8cad3315eead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk5MzkyNzR8&ixlib=rb-4.1.0&q=80&w=1080?t=1789939356380&seed=franquia-bagagem-como-funciona17899393563801789997023380"
+    },
+    {
+      "titulo": "¿Perdió el Vuelo? Qué Hacer",
+      "url": "/es/transporte/perdio-el-vuelo-que-hacer/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-09-21",
+      "imagem": "https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1790080678572&seed=o-que-fazer-se-perder-voo17900806731721790086696020"
+    }
+  ]
+}

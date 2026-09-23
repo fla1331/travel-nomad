@@ -96,64 +96,103 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ============================================================
-    // BUSCA
-    // ============================================================
-    const searchBtn = document.querySelector('.btn-search');
-    const headerActions = document.querySelector('.header-actions');
-    
-    if (searchBtn && headerActions) {
-        const searchInput = document.createElement('input');
-        searchInput.type = 'text';
-        searchInput.placeholder = 'Buscar artigos...';
-        searchInput.className = 'search-input';
-        searchInput.style.cssText = `
-            display: none;
-            position: absolute;
-            top: 100%;
-            right: 0;
-            padding: 8px 12px;
-            border: 2px solid var(--primaria);
-            border-radius: 8px;
-            background: var(--card);
-            color: var(--texto);
-            min-width: 200px;
-            z-index: 100;
-        `;
-        headerActions.style.position = 'relative';
-        headerActions.appendChild(searchInput);
-        
-        searchBtn.addEventListener('click', function(e) {
-            e.stopPropagation();
-            const isVisible = searchInput.style.display === 'block';
-            searchInput.style.display = isVisible ? 'none' : 'block';
-            if (!isVisible) searchInput.focus();
+// BUSCA (busca.json + dropdown)
+// ============================================================
+(function() {
+    const input = document.getElementById('busca-input');
+    const resultados = document.getElementById('busca-resultados');
+    const clearBtn = document.getElementById('busca-clear');
+    if (!input || !resultados) return;
+
+    const lang = (document.documentElement.lang || 'pt').substring(0, 2);
+    let artigos = [];
+
+    function normalizar(txt) {
+        return (txt || '')
+            .toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '');
+    }
+
+    fetch('/busca.json')
+        .then(r => r.json())
+        .then(data => {
+            artigos = data[lang] || data['pt'] || [];
+        })
+        .catch(() => {
+            resultados.innerHTML = '<div class="busca-vazio">Busca indisponível.</div>';
         });
-        
-        searchInput.addEventListener('keydown', function(e) {
-            if (e.key === 'Enter') {
-                const term = this.value.trim().toLowerCase();
-                if (term) {
-                    const cards = document.querySelectorAll('.post-card');
-                    let found = false;
-                    cards.forEach(card => {
-                        const title = card.querySelector('.post-card-title a');
-                        if (title) {
-                            const text = title.textContent.toLowerCase();
-                            if (text.includes(term)) {
-                                card.style.display = 'block';
-                                found = true;
-                            } else {
-                                card.style.display = 'none';
-                            }
-                        }
-                    });
-                    if (!found) {
-                        alert('Nenhum artigo encontrado para: ' + term);
-                    }
-                }
-            }
+
+    function esconder() {
+        resultados.hidden = true;
+        resultados.innerHTML = '';
+        if (clearBtn) clearBtn.hidden = true;
+    }
+
+    function mostrar(html) {
+        resultados.innerHTML = html;
+        resultados.hidden = false;
+        if (clearBtn) clearBtn.hidden = false;
+    }
+
+    function buscar(termo) {
+        termo = normalizar(termo.trim());
+        if (termo.length < 2) {
+            esconder();
+            return;
+        }
+
+        const achados = artigos
+            .filter(a => normalizar(a.titulo).includes(termo))
+            .slice(0, 6);
+
+        if (achados.length === 0) {
+            mostrar('<div class="busca-vazio">Nenhum artigo encontrado.</div>');
+            return;
+        }
+
+        let html = '<ul class="busca-lista">';
+        achados.forEach(a => {
+            html += `
+                <li class="busca-item">
+                    <a href="${a.url}">
+                        <div class="busca-item__img">
+                            <img src="${a.imagem}" alt="" loading="lazy">
+                        </div>
+                        <div class="busca-item__body">
+                            <span class="busca-item__cat">${a.categoria_nome}</span>
+                            <span class="busca-item__titulo">${a.titulo}</span>
+                        </div>
+                    </a>
+                </li>`;
+        });
+        html += '</ul>';
+        mostrar(html);
+    }
+
+    let timer = null;
+    input.addEventListener('input', function() {
+        clearTimeout(timer);
+        const valor = this.value;
+        timer = setTimeout(() => buscar(valor), 180);
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.busca-widget')) esconder();
+    });
+
+    input.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') esconder();
+    });
+
+    if (clearBtn) {
+        clearBtn.addEventListener('click', function() {
+            input.value = '';
+            input.focus();
+            esconder();
         });
     }
+})();
 
     // ============================================================
     // REVEAL ANIMATION
