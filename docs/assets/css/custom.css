@@ -878,6 +878,13 @@
 }
 
 @media (max-width: 768px) {
+  /* ===== CONTAINER ===== */
+  .container,
+  .container-wide {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .card-grid {
     grid-template-columns: 1fr;
   }
@@ -917,6 +924,13 @@
 }
 
 @media (max-width: 480px) {
+  /* ===== CONTAINER ===== */
+  .container,
+  .container-wide {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+
   .hero h1 {
     font-size: 1.6rem;
   }
@@ -2107,7 +2121,7 @@ html {
 }
 
 /* =====================================================
-   BUSCA
+   BUSCA - Travel Blog
    ===================================================== */
 .busca-widget {
   position: relative;
@@ -2117,27 +2131,39 @@ html {
   position: relative;
   display: flex;
   align-items: center;
+  background: var(--bg-alt, #f5f8fa);
+  border: 2px solid transparent;
+  border-radius: 14px;
+  padding: 0 10px 0 44px;
+  height: 52px;
+  transition: all 0.25s ease;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.busca-form:hover {
   background: var(--surface, #fff);
-  border: 1px solid var(--border, #e2e8f0);
-  border-radius: 999px;
-  padding: 0 8px 0 38px;
-  height: 46px;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  border-color: var(--border, #e2e8f0);
 }
 
 .busca-form:focus-within {
-  border-color: var(--primary, #0b2a3e);
-  box-shadow: 0 0 0 3px rgba(11, 42, 62, 0.08);
+  background: var(--surface, #fff);
+  border-color: var(--secondary, #e8853e);
+  box-shadow: 0 0 0 4px rgba(232, 133, 62, 0.12), 0 4px 12px rgba(0,0,0,0.06);
 }
 
 .busca-icon {
   position: absolute;
-  left: 14px;
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
   color: var(--text-light, #718096);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   pointer-events: none;
+  transition: color 0.25s ease;
+}
+
+.busca-form:focus-within .busca-icon {
+  color: var(--secondary, #e8853e);
 }
 
 .busca-form input[type="search"] {
@@ -2146,10 +2172,16 @@ html {
   outline: none;
   background: transparent;
   color: var(--text, #1a202c);
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-family: inherit;
+  font-weight: 500;
   padding: 0;
   min-width: 0;
+}
+
+.busca-form input[type="search"]::placeholder {
+  color: #a0aec0;
+  font-weight: 400;
 }
 
 .busca-form input[type="search"]::-webkit-search-cancel-button {
@@ -2161,32 +2193,41 @@ html {
   border: none;
   color: var(--text-light, #718096);
   cursor: pointer;
-  padding: 6px;
+  padding: 7px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  transition: background 0.2s, color 0.2s;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
 }
 
 .busca-clear:hover {
-  background: var(--bg-alt, #edf2f7);
-  color: var(--text, #1a202c);
+  background: var(--secondary, #e8853e);
+  color: #fff;
+  transform: rotate(90deg);
 }
 
+/* ---------- Dropdown de resultados ---------- */
 .busca-resultados {
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + 12px);
   left: 0;
   right: 0;
   background: var(--surface, #fff);
   border: 1px solid var(--border, #e2e8f0);
-  border-radius: 12px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
-  max-height: 420px;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(11, 45, 75, 0.15), 0 4px 12px rgba(0,0,0,0.06);
+  max-height: 460px;
   overflow-y: auto;
   z-index: 100;
-  padding: 6px;
+  padding: 10px;
+  animation: busca-fade-in 0.2s ease;
+}
+
+@keyframes busca-fade-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .busca-lista {
@@ -2197,26 +2238,29 @@ html {
 
 .busca-item a {
   display: flex;
-  gap: 10px;
+  gap: 14px;
   align-items: center;
-  padding: 8px;
-  border-radius: 8px;
+  padding: 12px 10px;
+  border-radius: 12px;
   text-decoration: none;
   color: var(--text, #1a202c);
-  transition: background 0.15s;
+  transition: all 0.2s ease;
 }
 
 .busca-item a:hover {
-  background: var(--bg-alt, #edf2f7);
+  background: linear-gradient(135deg, rgba(232, 133, 62, 0.08), rgba(232, 133, 62, 0.04));
+  transform: translateX(3px);
 }
 
 .busca-item__img {
-  width: 52px;
-  height: 40px;
-  border-radius: 6px;
+  width: 64px;
+  height: 48px;
+  border-radius: 10px;
   overflow: hidden;
   flex-shrink: 0;
   background: var(--bg-alt, #edf2f7);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  position: relative;
 }
 
 .busca-item__img img {
@@ -2224,48 +2268,109 @@ html {
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform 0.4s ease;
+}
+
+.busca-item a:hover .busca-item__img img {
+  transform: scale(1.1);
 }
 
 .busca-item__body {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 4px;
   min-width: 0;
+  flex: 1;
 }
 
 .busca-item__cat {
-  font-size: 0.7rem;
+  display: inline-block;
+  font-size: 0.65rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--secondary, #e8833a);
-  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--secondary, #e8853e);
+  font-weight: 700;
+  background: rgba(232, 133, 62, 0.10);
+  padding: 2px 8px;
+  border-radius: 4px;
+  align-self: flex-start;
 }
 
 .busca-item__titulo {
-  font-size: 0.9rem;
-  font-weight: 500;
-  line-height: 1.3;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
   color: var(--text, #1a202c);
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  transition: color 0.15s ease;
+}
+
+.busca-item a:hover .busca-item__titulo {
+  color: var(--secondary-dark, #d16a2a);
 }
 
 .busca-vazio {
-  padding: 16px;
+  padding: 28px 16px;
   text-align: center;
   color: var(--text-light, #718096);
-  font-size: 0.9rem;
+  font-size: 0.92rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
-[data-theme="dark"] .busca-form {
-  background: var(--surface, #1a202c);
+.busca-vazio::before {
+  content: '🔍';
+  font-size: 1.8rem;
+  opacity: 0.4;
 }
-[data-theme="dark"] .busca-resultados {
-  background: var(--surface, #1a202c);
+
+/* Scrollbar do dropdown */
+.busca-resultados::-webkit-scrollbar {
+  width: 6px;
+}
+.busca-resultados::-webkit-scrollbar-track {
+  background: transparent;
+}
+.busca-resultados::-webkit-scrollbar-thumb {
+  background: var(--border, #e2e8f0);
+  border-radius: 10px;
+}
+.busca-resultados::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary, #e8853e);
+}
+
+/* ---------- Dark mode ---------- */
+[data-theme="dark"] .busca-form {
+  background: var(--bg-alt, #1e262d);
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.3);
+}
+
+[data-theme="dark"] .busca-form:hover {
+  background: var(--surface, #1e262d);
   border-color: var(--border, #2d3748);
 }
+
+[data-theme="dark"] .busca-form:focus-within {
+  background: var(--surface, #1e262d);
+  border-color: var(--secondary, #f5a96a);
+  box-shadow: 0 0 0 4px rgba(245, 169, 106, 0.15);
+}
+
+[data-theme="dark"] .busca-resultados {
+  background: var(--surface, #1e262d);
+  border-color: var(--border, #2d3748);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
 [data-theme="dark"] .busca-item a:hover {
-  background: var(--bg-alt, #2d3748);
+  background: linear-gradient(135deg, rgba(245, 169, 106, 0.10), rgba(245, 169, 106, 0.04));
+}
+
+[data-theme="dark"] .busca-item__cat {
+  background: rgba(245, 169, 106, 0.12);
 }

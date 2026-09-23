@@ -177,12 +177,12 @@
       "imagem": "https://images.unsplash.com/photo-1609788077750-8cad3315eead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDEwOTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk5MzkyNzR8&ixlib=rb-4.1.0&q=80&w=1080?t=1789939356380&seed=franquia-bagagem-como-funciona17899393563801789997023380"
     },
     {
-      "titulo": "Alugar Carro na Europa: Manual Completo",
-      "url": "/pt/transporte/alugar-carro-europa-manual/",
+      "titulo": "Uber no Mundo: Como Funciona em Cada País",
+      "url": "/pt/transporte/uber-em-diferentes-paises/",
       "categoria": "transporte",
       "categoria_nome": "Transporte",
-      "data": "2026-09-09",
-      "imagem": "https://plus.unsplash.com/premium_photo-1661775983935-579b5c94e2c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789309235047"
+      "data": "2026-10-03",
+      "imagem": "https://images.pexels.com/photos/33897863/pexels-photo-33897863.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1790166075266&seed=uber-em-diferentes-paises17901660752661790235722222"
     },
     {
       "titulo": "Voos com Conexão vs Diretos: O que Considerar",
@@ -355,14 +355,6 @@
       "imagem": "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789294452396"
     },
     {
-      "titulo": "Renting a Car in Europe: Complete Guide",
-      "url": "/en/transportation/renting-a-car-in-europe-complete-guide/",
-      "categoria": "transportation",
-      "categoria_nome": "Transportation",
-      "data": "2026-09-13",
-      "imagem": "https://plus.unsplash.com/premium_photo-1661775983935-579b5c94e2c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789309235076"
-    },
-    {
       "titulo": "Connecting Flights vs Direct Flights: What to Consider",
       "url": "/en/transportation/connecting-flights-vs-direct-flights-what-to-consider/",
       "categoria": "transportation",
@@ -409,6 +401,14 @@
       "categoria_nome": "Transportation",
       "data": "2026-09-21",
       "imagem": "https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1790080678566&seed=o-que-fazer-se-perder-voo17900806731721790086696020"
+    },
+    {
+      "titulo": "Uber Around the World: How It Works in Each Country",
+      "url": "/en/transportation/uber-around-the-world-how-it-works-in-each-country/",
+      "categoria": "transportation",
+      "categoria_nome": "Transportation",
+      "data": "2026-09-23",
+      "imagem": "https://images.pexels.com/photos/33897863/pexels-photo-33897863.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1790166075266&seed=uber-em-diferentes-paises17901660752661790235722222"
     }
   ],
   "es": [
@@ -565,14 +565,6 @@
       "imagem": "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789294452396"
     },
     {
-      "titulo": "Alquilar Coche en Europa: Manual Completo",
-      "url": "/es/transporte/alquilar-coche-en-europa-manual-completo/",
-      "categoria": "transporte",
-      "categoria_nome": "Transporte",
-      "data": "2026-09-13",
-      "imagem": "https://plus.unsplash.com/premium_photo-1661775983935-579b5c94e2c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?t=1789309235081"
-    },
-    {
       "titulo": "Vuelos con Conexión vs Directos: Qué Considerar",
       "url": "/es/transporte/vuelos-con-conexion-vs-directos-que-considerar/",
       "categoria": "transporte",
@@ -619,6 +611,14 @@
       "categoria_nome": "Transporte",
       "data": "2026-09-21",
       "imagem": "https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1790080678572&seed=o-que-fazer-se-perder-voo17900806731721790086696020"
+    },
+    {
+      "titulo": "Uber en el Mundo: Cómo Funciona en Cada País",
+      "url": "/es/transporte/uber-en-el-mundo-como-funciona-en-cada-pais/",
+      "categoria": "transporte",
+      "categoria_nome": "Transporte",
+      "data": "2026-09-23",
+      "imagem": "https://images.pexels.com/photos/33897863/pexels-photo-33897863.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?t=1790166075266&seed=uber-em-diferentes-paises17901660752661790235722222"
     }
   ]
 }
